@@ -1,5 +1,16 @@
-gradio==5.5.0
-transformers==4.41.0
+# Core AI libraries
 torch==2.8.0
+transformers==4.41.0
+
+# Web interface
+gradio==5.5.0
+
+# Data handling
 numpy
 pandas
+
+# Optional: FastAPI / Flask if your backend uses it
+fastapi==0.111.1
+uvicorn==0.23.2
+flask==2.3.3
+gunicorn==21.2.0
