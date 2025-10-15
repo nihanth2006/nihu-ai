@@ -1,5 +1,5 @@
 gradio==5.5.0
 transformers==4.41.0
-torch==2.2.0
-sentencepiece
-safetensors
+torch==2.8.0
+numpy
+pandas
